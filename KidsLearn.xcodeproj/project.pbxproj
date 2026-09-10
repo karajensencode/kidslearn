@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88026BADCB3C554C662454C6 /* KidsLearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041BFC2CB80C9EF4D950032 /* KidsLearnApp.swift */; };
+		3CEFA7165D38B9E5C98D0564 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BA02AFFB5D2C4FBD5E52A2 /* HomeView.swift */; };
+		8FDC611CCABE1AE6DAEC3B3C /* KidTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5655412B373F617232C4E1 /* KidTheme.swift */; };
+		AD8E49AA2520D9DB4AF1FB69 /* QuizModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDE1AF33174595C82A8331 /* QuizModels.swift */; };
+		128A3EB970E8A38D30AF6067 /* KidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0C7641AAA95940995545A /* KidButton.swift */; };
+		8E9C3F746D759C53B47269FE /* ProgressStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47750413C86768C4B2643E /* ProgressStars.swift */; };
+		F7D24B82B0E41A33BA61D628 /* CelebrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC3FFE5568A23847B82C65 /* CelebrationView.swift */; };
+		7219176FFF0F1F2F4660E100 /* QuizSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB03088121A9EF6D54C2FB52 /* QuizSessionView.swift */; };
+		EC1F66ECA5098B81C1CCDA25 /* ReadingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00C39DED6AE4ECE2EBE14FD /* ReadingContent.swift */; };
+		4F4E4204D4239B2061308DAC /* ReadingHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1DAA792987964EA47739C /* ReadingHubView.swift */; };
+		DD30B3B3D181C526C21F376E /* MathContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB22CCFD53157224036636 /* MathContent.swift */; };
+		D8B838C2EE67D610F64EC1F3 /* MathHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E98D96ACF4C72048B451E /* MathHubView.swift */; };
+		BFA5D39A1830E14AA0DBC6E5 /* ScienceContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151DB47A23AEED44A6718CD /* ScienceContent.swift */; };
+		9C6E4E0CC703CEE30675533F /* ScienceHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2514F361E6D93D26D5F21 /* ScienceHubView.swift */; };
+		A6070B9CF28E71610AA267AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C2B90A5DCA5D29F2BEC039 /* Assets.xcassets */; };
+		A028E08085BB915437BF835B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FCFF29B961E5550431319D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5BF48AA40CAD7891EB709FC /* KidsLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1041BFC2CB80C9EF4D950032 /* KidsLearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsLearnApp.swift; sourceTree = "<group>"; };
+		B1BA02AFFB5D2C4FBD5E52A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1E5655412B373F617232C4E1 /* KidTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidTheme.swift; sourceTree = "<group>"; };
+		DFEDE1AF33174595C82A8331 /* QuizModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModels.swift; sourceTree = "<group>"; };
+		37B0C7641AAA95940995545A /* KidButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidButton.swift; sourceTree = "<group>"; };
+		BA47750413C86768C4B2643E /* ProgressStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStars.swift; sourceTree = "<group>"; };
+		2FDC3FFE5568A23847B82C65 /* CelebrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationView.swift; sourceTree = "<group>"; };
+		BB03088121A9EF6D54C2FB52 /* QuizSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionView.swift; sourceTree = "<group>"; };
+		E00C39DED6AE4ECE2EBE14FD /* ReadingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingContent.swift; sourceTree = "<group>"; };
+		E9A1DAA792987964EA47739C /* ReadingHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingHubView.swift; sourceTree = "<group>"; };
+		5AEB22CCFD53157224036636 /* MathContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathContent.swift; sourceTree = "<group>"; };
+		DE9E98D96ACF4C72048B451E /* MathHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathHubView.swift; sourceTree = "<group>"; };
+		E151DB47A23AEED44A6718CD /* ScienceContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceContent.swift; sourceTree = "<group>"; };
+		D9C2514F361E6D93D26D5F21 /* ScienceHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceHubView.swift; sourceTree = "<group>"; };
+		E9C2B90A5DCA5D29F2BEC039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72FCFF29B961E5550431319D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F6F5CC3FCCF73F75AE9CCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71D2E56247FE75C3DCE9B609 = {
+			isa = PBXGroup;
+			children = (
+				0A5AFBD741BDE4D17E7A0CE3 /* KidsLearn */,
+				30772F61AC9BDC8631745269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30772F61AC9BDC8631745269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF48AA40CAD7891EB709FC /* KidsLearn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A5AFBD741BDE4D17E7A0CE3 /* KidsLearn */ = {
+			isa = PBXGroup;
+			children = (
+				1041BFC2CB80C9EF4D950032 /* KidsLearnApp.swift */,
+				B1BA02AFFB5D2C4FBD5E52A2 /* HomeView.swift */,
+				CC9BEF084CD7556515CFAAE8 /* Features */,
+				9B8EA7C3EDD85BDD3B598AA8 /* Shared */,
+				E9C2B90A5DCA5D29F2BEC039 /* Assets.xcassets */,
+				AEE5F5974E9F80F9FE720A0E /* Preview Content */,
+			);
+			path = KidsLearn;
+			sourceTree = "<group>";
+		};
+		9B8EA7C3EDD85BDD3B598AA8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F8A961A65445D96B693D0256 /* Components */,
+				C9E04F99D8E7C9D4D391AEF8 /* Models */,
+				768BD30F2A9C3476FEE4E8B4 /* Theme */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		768BD30F2A9C3476FEE4E8B4 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				1E5655412B373F617232C4E1 /* KidTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		C9E04F99D8E7C9D4D391AEF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDE1AF33174595C82A8331 /* QuizModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8A961A65445D96B693D0256 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				37B0C7641AAA95940995545A /* KidButton.swift */,
+				BA47750413C86768C4B2643E /* ProgressStars.swift */,
+				2FDC3FFE5568A23847B82C65 /* CelebrationView.swift */,
+				BB03088121A9EF6D54C2FB52 /* QuizSessionView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CC9BEF084CD7556515CFAAE8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF41FC9CA7C0021295F2AC /* Reading */,
+				8264BFD4F06D76E9FC7FED91 /* Math */,
+				7C2E468B753B02EBED3707D4 /* Science */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1FFF41FC9CA7C0021295F2AC /* Reading */ = {
+			isa = PBXGroup;
+			children = (
+				E00C39DED6AE4ECE2EBE14FD /* ReadingContent.swift */,
+				E9A1DAA792987964EA47739C /* ReadingHubView.swift */,
+			);
+			path = Reading;
+			sourceTree = "<group>";
+		};
+		8264BFD4F06D76E9FC7FED91 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB22CCFD53157224036636 /* MathContent.swift */,
+				DE9E98D96ACF4C72048B451E /* MathHubView.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		7C2E468B753B02EBED3707D4 /* Science */ = {
+			isa = PBXGroup;
+			children = (
+				E151DB47A23AEED44A6718CD /* ScienceContent.swift */,
+				D9C2514F361E6D93D26D5F21 /* ScienceHubView.swift */,
+			);
+			path = Science;
+			sourceTree = "<group>";
+		};
+		AEE5F5974E9F80F9FE720A0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72FCFF29B961E5550431319D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* KidsLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD04581184175117C78D9AC /* Build configuration list for PBXNativeTarget "KidsLearn" */;
+			buildPhases = (
+				F2AB5FB218DA8B84623F4557 /* Sources */,
+				4F6F5CC3FCCF73F75AE9CCF4 /* Frameworks */,
+				55B558C7EF820E6E00E5993B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidsLearn;
+			productName = KidsLearn;
+			productReference = F5BF48AA40CAD7891EB709FC /* KidsLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 022E0F2E8ECAC35F5510DD6F /* Build configuration list for PBXProject "KidsLearn" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71D2E56247FE75C3DCE9B609;
+			productRefGroup = 30772F61AC9BDC8631745269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* KidsLearn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B558C7EF820E6E00E5993B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A028E08085BB915437BF835B /* Preview Assets.xcassets in Resources */,
+				A6070B9CF28E71610AA267AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2AB5FB218DA8B84623F4557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88026BADCB3C554C662454C6 /* KidsLearnApp.swift in Sources */,
+				3CEFA7165D38B9E5C98D0564 /* HomeView.swift in Sources */,
+				8FDC611CCABE1AE6DAEC3B3C /* KidTheme.swift in Sources */,
+				AD8E49AA2520D9DB4AF1FB69 /* QuizModels.swift in Sources */,
+				128A3EB970E8A38D30AF6067 /* KidButton.swift in Sources */,
+				8E9C3F746D759C53B47269FE /* ProgressStars.swift in Sources */,
+				F7D24B82B0E41A33BA61D628 /* CelebrationView.swift in Sources */,
+				7219176FFF0F1F2F4660E100 /* QuizSessionView.swift in Sources */,
+				EC1F66ECA5098B81C1CCDA25 /* ReadingContent.swift in Sources */,
+				4F4E4204D4239B2061308DAC /* ReadingHubView.swift in Sources */,
+				DD30B3B3D181C526C21F376E /* MathContent.swift in Sources */,
+				D8B838C2EE67D610F64EC1F3 /* MathHubView.swift in Sources */,
+				BFA5D39A1830E14AA0DBC6E5 /* ScienceContent.swift in Sources */,
+				9C6E4E0CC703CEE30675533F /* ScienceHubView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8075F60415069C2BCB23FFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63A23CADC2DB422E378CB61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		567636C4601008F29B6C5EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KidsLearn/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KidsLearn;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karajensen.KidsLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26FC3B14798F68FCED7FA6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KidsLearn/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KidsLearn;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karajensen.KidsLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		022E0F2E8ECAC35F5510DD6F /* Build configuration list for PBXProject "KidsLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8075F60415069C2BCB23FFD1 /* Debug */,
+				63A23CADC2DB422E378CB61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD04581184175117C78D9AC /* Build configuration list for PBXNativeTarget "KidsLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567636C4601008F29B6C5EDF /* Debug */,
+				26FC3B14798F68FCED7FA6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
